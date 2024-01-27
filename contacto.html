@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo-beige.png" id="logoHeader" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Comprar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="divForm">
+            <form action="">
+                <label for="nombreApellido">Nombre y apellido:</label>
+                <input type="text" id="nombreApellido" required>
+                <label for="correo">Correro electronico:</label>
+                <input type="email" id="correo" placeholder="email@dominio.com" required>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" placeholder="10 digitos" required>
+                <label for="comentarios">!Dejanos tus comentarios!</label>
+                <textarea id="comentarios" cols="auto" rows="10"></textarea>
+                <input type="submit" id="botonEnviarForm" value="Enviar datos">
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <img src="img/logo-reducido.png" alt="">
+        <br>
+        <p>Copyright Breads and Donuts 2024</p>
+        <br>
+    </footer>
+</body>
+</html>
